@@ -1,0 +1,10 @@
+﻿version: "3"
+services:
+  database:
+    container_name: Moa.Db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=admin
+    image: postgres

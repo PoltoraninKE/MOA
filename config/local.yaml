@@ -1,0 +1,13 @@
+env: "develop"
+
+database:
+  port: 8080
+  user_name: "admin"
+  user_pass: "admin"
+
+http_server:
+  port: 80
+  timeout: 4s
+  idle_timeout: 60s
+  host: "localhost"
+
